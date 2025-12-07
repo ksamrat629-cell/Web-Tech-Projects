@@ -1,0 +1,57 @@
+body{
+            padding: 0;
+            margin: 0;
+            background-color: rgb(207, 200, 200);
+        }
+        h1{
+            text-align: center;
+            background-color: rgb(227, 126, 126);
+            margin: 0;
+            padding-top: 20px;
+            padding-bottom: 25px;
+        }
+        .container{
+           
+            background-color: rgb(176, 176, 244);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            height: 100vh;
+            
+        }
+
+        .input-row{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        input{
+            padding: 10px 50px;
+            border-radius: 5px;
+            width: 300px;
+        }
+        label{
+            font-weight: 700;
+            font-size: xx-large;
+
+        }
+        .buttons{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+        }
+        .buttons button{
+            padding: 15px 15px;
+            border-radius: 15px;
+            font-weight: bolder;
+            font-size: x-large;
+        }
+        .buttons button:hover {
+            background-color: rgb(150, 150, 255); /* change color on hover */
+            cursor: pointer;                      /* makes pointer hand */
+        }
+        .equal{
+            grid-column: span 2;
+        }
